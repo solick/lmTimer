@@ -1,5 +1,5 @@
-#ifndef LIFECHECK_H
-#define LIFECHECK_H
+#ifndef LMTIMER_H
+#define LMTIMER_H
 
 #include "Arduino.h"
 

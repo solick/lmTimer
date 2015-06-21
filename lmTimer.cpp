@@ -45,7 +45,6 @@ int lmTimer::checkTime()
   if(_tick % _lckInterval == 0 && _tick > _lastLckTick)
   {
     _lastLckTick = _tick;
-    //serCom.printToSerial("AT+LCK=OK", 0);
     return 1;
     
   }
